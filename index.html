@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<script src="index.js" defer></script>
+	</head>
+	<body onload="repaintGrid()">
+		<h1>Welcome to Valentin Ivanov grid calculator</h1>
+		<div>
+			<h3>Please choose number of rows and columns</h3>
+			<input type="range" min="1" max="100" value="10" id="countRange" class="countRange">
+			<div id="countOutput"></div>
+		</div>
+		<div>
+			<h3>Please choose hover colour</h3>
+			<input type="color" id="favcolor" value="#00a400">
+		</div>
+		<div class="loaderWrapper" id="loaderWrapper">
+			<div class="loader"></div>
+		</div>
+	</body>
+</html>
